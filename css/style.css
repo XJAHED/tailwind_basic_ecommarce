@@ -1,0 +1,29 @@
+.root {
+  --second-font: "Playfair Display";
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo span {
+  font-family: "Playfair Display";
+  font-weight: 800;
+}
+
+.banner_text {
+  font-family: "Playfair Display";
+}
