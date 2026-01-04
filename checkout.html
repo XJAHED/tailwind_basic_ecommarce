@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E Commerece</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    /> -->
+  </head>
+  <body class=".poppins-medium">
+    <!-- Header start -->
+    <header class="w-3/4 mx-auto py-7 border-b border-gray-300">
+      <div class="flex justify-between">
+        <div class="flex m-5 flex item-center text-sm gap-2">
+          <span class="material-symbols-outlined">phone_enabled</span>
+          <h1>0129- 12323-123123</h1>
+        </div>
+
+        <div class="logo m-5 flex item-center text-4xl font-bold">
+          <span>AVIATO</span>
+        </div>
+
+        <div class="flex justify-content-between m-5 gap-4 text-sm">
+          <div class="flex item-center gap-2">
+            <span class="material-symbols-outlined">shopping_cart</span>
+            <span>Card</span>
+          </div>
+          <div class="flex item-center gap-2">
+            <span class="material-symbols-outlined">search</span>
+            <span>Search</span>
+          </div>
+          <div class="flex item-center gap-2">
+            <select>
+              <option value="en">EN</option>
+              <option value="bn">BN</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- Nav start -->
+    <nav class="flex item-center justify-center py-10 gap-5">
+      <div>
+        <a class="text-sm font-light m-2" href="#"><span>HOME</span></a>
+      </div>
+
+      <div class="group">
+        <a class="text-sm font-light m-2 mb-5" href="#">
+          <span>SHOP</span>
+        </a>
+
+        <div
+          class="absolute bg-white border border-[#f5f5f5] px-5 py-4 z-[9999] flex flex-row gap-8 opacity-0 translate-y-6 invisible pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible group-hover:pointer-events-auto transition-all duration-500 ease-in-out"
+        >
+          <div class="flex-col flex mr-8">
+            <h1
+              class="mb-3 mt-3 pb-2 pl-3 text-sm text-[#777] font-light border-b border-[#777]"
+            >
+              Pages
+            </h1>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 font-light text-gray text-sm transition delay-50 duration-100"
+              href="./shop.html"
+            >
+              SHOP
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray font-light text-sm transition delay-50 duration-100"
+              href="./checkout.html"
+            >
+              CHECKOUT
+            </a>
+
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray text-sm font-light transition delay-50 duration-100"
+              href="./cart.html"
+            >
+              CART
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray text-sm font-light transition delay-50 duration-100"
+              href="./confirmation.html"
+            >
+              CONFIRMATION
+            </a>
+          </div>
+
+          <div class="flex-col flex">
+            <h1
+              class="mb-3 mt-3 pb-2 pl-3 text-sm text-[#777] font-light border-b border-[#777]"
+            >
+              Layout
+            </h1>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 font-light text-gray text-sm transition delay-50 duration-100"
+              href="./shop.html"
+            >
+              Product
+              <br />
+              Details
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray font-light text-sm transition delay-50 duration-100"
+              href="./checkout.html"
+            >
+              Shop With
+              <br />
+              Sidebar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <a class="text-sm font-light m-2 mb-5" href="#">
+          <span>PAGES</span>
+        </a>
+
+        <div
+          class="absolute bg-white border border-[#f5f5f5] px-5 py-4 z-[9999] flex flex-row gap-8 opacity-0 translate-y-6 invisible pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible group-hover:pointer-events-auto transition-all duration-500 ease-in-out"
+        >
+          <div class="flex-col flex mr-8">
+            <h1
+              class="mb-3 mt-3 pb-2 pl-3 text-sm text-[#777] font-light border-b border-[#777]"
+            >
+              Pages
+            </h1>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 font-light text-gray text-sm transition delay-50 duration-100"
+              href="./shop.html"
+            >
+              SHOP
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray font-light text-sm transition delay-50 duration-100"
+              href="./checkout.html"
+            >
+              CHECKOUT
+            </a>
+
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray text-sm font-light transition delay-50 duration-100"
+              href="./cart.html"
+            >
+              CART
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray text-sm font-light transition delay-50 duration-100"
+              href="./confirmation.html"
+            >
+              CONFIRMATION
+            </a>
+          </div>
+
+          <div class="flex-col flex">
+            <h1
+              class="mb-3 mt-3 pb-2 pl-3 text-sm text-[#777] font-light border-b border-[#777]"
+            >
+              Layout
+            </h1>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 font-light text-gray text-sm transition delay-50 duration-100"
+              href="./shop.html"
+            >
+              Product
+              <br />
+              Details
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray font-light text-sm transition delay-50 duration-100"
+              href="./checkout.html"
+            >
+              Shop With
+              <br />
+              Sidebar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <a class="text-sm font-light m-2 mb-5" href="#">
+          <span>BLOGS</span>
+        </a>
+
+        <div
+          class="absolute bg-white border border-[#f5f5f5] px-5 py-4 z-[9999] flex flex-row gap-8 opacity-0 translate-y-6 invisible pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible group-hover:pointer-events-auto transition-all duration-500 ease-in-out"
+        >
+          <div class="flex-col flex mr-8">
+            <h1
+              class="mb-3 mt-3 pb-2 pl-3 text-sm text-[#777] font-light border-b border-[#777]"
+            >
+              Pages
+            </h1>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 font-light text-gray text-sm transition delay-50 duration-100"
+              href="./shop.html"
+            >
+              SHOP
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray font-light text-sm transition delay-50 duration-100"
+              href="./checkout.html"
+            >
+              CHECKOUT
+            </a>
+
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray text-sm font-light transition delay-50 duration-100"
+              href="./cart.html"
+            >
+              CART
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray text-sm font-light transition delay-50 duration-100"
+              href="./confirmation.html"
+            >
+              CONFIRMATION
+            </a>
+          </div>
+
+          <div class="flex-col flex">
+            <h1
+              class="mb-3 mt-3 pb-2 pl-3 text-sm text-[#777] font-light border-b border-[#777]"
+            >
+              Layout
+            </h1>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 font-light text-gray text-sm transition delay-50 duration-100"
+              href="./shop.html"
+            >
+              Product
+              <br />
+              Details
+            </a>
+            <a
+              class="hover:bg-black hover:text-white pr-15 pl-3 pt-3 pb-3 text-gray font-light text-sm transition delay-50 duration-100"
+              href="./checkout.html"
+            >
+              Shop With
+              <br />
+              Sidebar
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <a class="text-sm font-light m-2" href="#"><span>ELEMENTS</span></a>
+        <div
+          class="flex-col group-hover:flex hidden absolute px-2 py-2 border border-gray-200 text-gray bg-white z-9999"
+        >
+          <a class="px-2 py-2 text-gray text-sm" href="#">Sub Menu</a>
+          <a class="px-2 py-2 text-gray text-sm" href="#">Sub Menu</a>
+          <a class="px-2 py-2 text-gray text-sm" href="#">Sub Menu</a>
+          <a class="px-2 py-2 text-gray text-sm" href="#">Sub Menu</a>
+          <a class="px-2 py-2 text-gray text-sm" href="#">Sub Menu</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav end-->
+
+    <!-- main menu section -->
+    <section class="bg-[#f5f5f5]">
+      <div class="container mx-auto py-8">
+        <h1 class="text-[36px] font-light text-[#333]">Checkout</h1>
+
+        <nav class="flex" aria-label="Breadcrumb">
+          <ol
+            class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse"
+          >
+            <li class="inline-flex items-center">
+              <a
+                href="#"
+                class="inline-flex items-center text-sm font-light text-body text-[#333]"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <div class="flex items-center space-x-1.5">
+                <span class="font-light text-[#777]">/</span>
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-light text-body text-[#777]"
+                >
+                  Checkout
+                </a>
+              </div>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <!-- main menu section end-->
+
+    <!-- checkout -->
+
+    <div class="grid sm:px-10 lg:grid-cols-2 lg:px-20 xl:px-32 my-15">
+      <div class="px-4 pt-8">
+        <p class="text-xl font-medium">Order Summary</p>
+        <p class="text-gray-400">
+          Check your items. And select a suitable shipping method.
+        </p>
+        <div
+          class="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-6"
+        >
+          <div class="flex flex-col rounded-lg bg-white sm:flex-row">
+            <img
+              class="m-2 h-24 w-28 rounded-md border object-cover object-center"
+              src="./images/shop/products/product-1.jpg"
+              alt=""
+            />
+            <div class="flex w-full flex-col px-4 py-4">
+              <span class="font-semibold">
+                Nike Air Max Pro 8888 - Super Light
+              </span>
+              <span class="float-right text-gray-400">42EU - 8.5US</span>
+              <p class="text-lg font-bold">$138.99</p>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-lg bg-white sm:flex-row">
+            <img
+              class="m-2 h-24 w-28 rounded-md border object-cover object-center"
+              src="./images/shop/products/product-9.jpg"
+              alt=""
+            />
+            <div class="flex w-full flex-col px-4 py-4">
+              <span class="font-semibold">
+                Nike Air Max Pro 8888 - Super Light
+              </span>
+              <span class="float-right text-gray-400">42EU - 8.5US</span>
+              <p class="mt-auto text-lg font-bold">$238.99</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-8 text-lg font-medium">Shipping Methods</p>
+        <form class="mt-5 grid gap-6">
+          <div class="relative">
+            <input
+              class="peer hidden"
+              id="radio_1"
+              type="radio"
+              name="radio"
+              checked
+            />
+            <span
+              class="peer-checked:border-gray-700 absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white"
+            ></span>
+            <label
+              class="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4"
+              for="radio_1"
+            >
+              <img
+                class="w-14 object-contain"
+                src="/images/naorrAeygcJzX0SyNI4Y0.png"
+                alt=""
+              />
+              <div class="ml-5">
+                <span class="mt-2 font-semibold">Fedex Delivery</span>
+                <p class="text-slate-500 text-sm leading-6">
+                  Delivery: 2-4 Days
+                </p>
+              </div>
+            </label>
+          </div>
+          <div class="relative">
+            <input
+              class="peer hidden"
+              id="radio_2"
+              type="radio"
+              name="radio"
+              checked
+            />
+            <span
+              class="peer-checked:border-gray-700 absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white"
+            ></span>
+            <label
+              class="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4"
+              for="radio_2"
+            >
+              <img
+                class="w-14 object-contain"
+                src="/images/oG8xsl3xsOkwkMsrLGKM4.png"
+                alt=""
+              />
+              <div class="ml-5">
+                <span class="mt-2 font-semibold">Fedex Delivery</span>
+                <p class="text-slate-500 text-sm leading-6">
+                  Delivery: 2-4 Days
+                </p>
+              </div>
+            </label>
+          </div>
+        </form>
+      </div>
+      <div class="mt-10 px-4 pt-8 lg:mt-0">
+        <p class="text-xl font-medium">Payment Details</p>
+        <p class="text-gray-400">
+          Complete your order by providing your payment details.
+        </p>
+        <div class="">
+          <label for="email" class="mt-4 mb-2 block text-sm font-medium">
+            Email
+          </label>
+          <div class="relative">
+            <input
+              type="text"
+              id="email"
+              name="email"
+              class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="your.email@gmail.com"
+            />
+            <div
+              class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+                />
+              </svg>
+            </div>
+          </div>
+          <label for="card-holder" class="mt-4 mb-2 block text-sm font-medium">
+            Card Holder
+          </label>
+          <div class="relative">
+            <input
+              type="text"
+              id="card-holder"
+              name="card-holder"
+              class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm uppercase shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="Your full name here"
+            />
+            <div
+              class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z"
+                />
+              </svg>
+            </div>
+          </div>
+          <label for="card-no" class="mt-4 mb-2 block text-sm font-medium">
+            Card Details
+          </label>
+          <div class="flex">
+            <div class="relative w-7/12 flex-shrink-0">
+              <input
+                type="text"
+                id="card-no"
+                name="card-no"
+                class="w-full rounded-md border border-gray-200 px-2 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                placeholder="xxxx-xxxx-xxxx-xxxx"
+              />
+              <div
+                class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3"
+              >
+                <svg
+                  class="h-4 w-4 text-gray-400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z"
+                  />
+                  <path
+                    d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <input
+              type="text"
+              name="credit-expiry"
+              class="w-full rounded-md border border-gray-200 px-2 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="MM/YY"
+            />
+            <input
+              type="text"
+              name="credit-cvc"
+              class="w-1/6 flex-shrink-0 rounded-md border border-gray-200 px-2 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="CVC"
+            />
+          </div>
+          <label
+            for="billing-address"
+            class="mt-4 mb-2 block text-sm font-medium"
+          >
+            Billing Address
+          </label>
+          <div class="flex flex-col sm:flex-row">
+            <div class="relative flex-shrink-0 sm:w-7/12">
+              <input
+                type="text"
+                id="billing-address"
+                name="billing-address"
+                class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+                placeholder="Street Address"
+              />
+              <div
+                class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3"
+              >
+                <img
+                  class="h-4 w-4 object-contain"
+                  src="https://flagpack.xyz/_nuxt/4c829b6c0131de7162790d2f897a90fd.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <select
+              type="text"
+              name="billing-state"
+              class="w-full rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+            >
+              <option value="State">State</option>
+            </select>
+            <input
+              type="text"
+              name="billing-zip"
+              class="flex-shrink-0 rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none sm:w-1/6 focus:z-10 focus:border-blue-500 focus:ring-blue-500"
+              placeholder="ZIP"
+            />
+          </div>
+
+          <!-- Total -->
+          <div class="mt-6 border-t border-b py-2">
+            <div class="flex items-center justify-between">
+              <p class="text-sm font-medium text-gray-900">Subtotal</p>
+              <p class="font-semibold text-gray-900">$399.00</p>
+            </div>
+            <div class="flex items-center justify-between">
+              <p class="text-sm font-medium text-gray-900">Shipping</p>
+              <p class="font-semibold text-gray-900">$8.00</p>
+            </div>
+          </div>
+          <div class="mt-6 flex items-center justify-between">
+            <p class="text-sm font-medium text-gray-900">Total</p>
+            <p class="text-2xl font-semibold text-gray-900">$408.00</p>
+          </div>
+        </div>
+        <button
+          class="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white"
+        >
+          Place Order
+        </button>
+      </div>
+    </div>
+
+    <!-- checkout end-->
+
+    <!-- Footer start -->
+    <footer class="bg-[#F7F7F7]">
+      <div class="flex item-center justify-center grid">
+        <div class="item-center justify-center flex py-4 pt-12">
+          <span>
+            <a class="px-4 text-[#333]" href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="px-4 text-[#333]" href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="px-4 text-[#333]" href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="px-4 text-[#333]" href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </span>
+        </div>
+        <div
+          class="flex item-cneter justify-center uppercase text-[#333] text-sm font-light py-5 gap-5"
+        >
+          <a href="#">CONTACT</a>
+          <a href="#">SHOP</a>
+          <a href="#">Pricing</a>
+          <a href="#">PRIVACY POLICY</a>
+        </div>
+        <div>
+          <p class="text-[#757575] text-sm font-light pb-15">
+            Copyright ©2021, Designed & Developed by
+            <span class="text-black">Themefisher</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/fe366823fb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
